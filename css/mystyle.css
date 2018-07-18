@@ -202,6 +202,7 @@ button {
 .info-work h3 {
 	font-family: 'Roboto Condensed', sans-serif;
     text-align: center; 
+    margin-top: 17px;
 }
 
 .info-work h4 {
@@ -214,8 +215,22 @@ button {
 	width: 19%;
 	height: 100px;
 	float: left;
+	background-color: #f0f0f0;
+    background-image: url(../img/cart-arrow-down-solid.svg);
+    background-position: center;
+    -webkit-background-size: 20% 20%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
 
 }
+
+.top-fon-cart h3 {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+    
 
 /*top-menu*/
 
