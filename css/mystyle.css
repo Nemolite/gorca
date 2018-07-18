@@ -100,10 +100,16 @@ button:before {
 	width: 14%;
 	height: 60px;
 	float: left;
-	padding-top: 20px;
+	
 }
 
-.top-line-login a {
+.top-line-login-txt {
+	width: 80px;
+	height: 20px;
+	margin-top: 20px;
+}
+
+.top-line-login-txt a {
     color:#fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -111,7 +117,7 @@ button:before {
 	 
 }
 
-.top-line-login a:hover {
+.top-line-login-txt a:hover {
     color:#fff;
 	text-decoration: underline;
 	margin-left: 15px;
@@ -123,11 +129,39 @@ button:before {
 .top-fon {
 	width: 100%;
 	height: 100px;
-	/*border:1px solid red;*/
+	
 }
 
-.top-fon h1 {
-	text-align: center;
+.top-fon-logo {
+	width: 30%;
+	height: 100px;
+	border: 1px solid red;
+	float: left;
+}
+
+.logo-img {
+	width: 300px;
+	height: 100px;
+	
+}
+
+.logo-img img {
+
+}
+
+.top-fon-info {
+	width: 50%;
+	height: 100px;
+	border:1px solid red;
+	float: left;
+}
+
+.top-fon-cart {
+	width: 19%;
+	height: 100px;
+	border:1px solid red;
+	float: left;
+
 }
 
 /*top-menu*/
