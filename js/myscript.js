@@ -1,7 +1,7 @@
 // slider
 
 $(function(){
-  $('.line-news').bxSlider({
+  $('.line-news-slider-content').bxSlider({
     mode: 'fade',
     captions: true,
     slideWidth: 1200
