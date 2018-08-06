@@ -266,8 +266,9 @@ button {
 /*menu*/
 
 nav {
-    display: table;
+    width: 80%;
     margin: 0 auto;
+
 
 }
 nav ul {
@@ -285,8 +286,16 @@ nav ul {
     float: left;
     position: relative;
     font-family: 'Open Sans', sans-serif;
-    /*margin-left: 5%;*/
+    margin-top: 10px;
 }
+
+
+.topmenu > li:first-child {
+   
+    margin-left: 5%;
+}
+
+
 .topmenu > li > a {
    text-transform: uppercase;
    font-size: 14px;
@@ -294,20 +303,28 @@ nav ul {
    color: #fff;
    text-decoration: none;
    font-family: 'Open Sans', sans-serif;
-   padding: 15px 30px;
+   margin-left: 3px;
+
+
 }
 .topmenu li a:hover { 
-	color: #D5B45B; 
+	color: #000; 
+}
+
+
+.submenu li a:hover { 
+	color: #FE3636; 
 }
 
 
 .submenu {
-  
+ 
    position: absolute;
    left: 0;
    top: 100%;
    z-index: 5;
    width: 180px;
+ /*  height: 50px;*/
    opacity: 0;
    transform: scaleY(0);
    transform-origin: 0 0;
@@ -319,9 +336,10 @@ nav ul {
    color: white;
    background-color: #282828;
    text-align: left;
-
-   padding: 2px 40px;
-   font-size: 13px;
+   padding: 2px 30px;
+   /*padding-top: 10px;*/
+   /*margin-top: 10px ;*/
+   font-size: 15px;
    border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .submenu li:last-child a { border-bottom: none; }
