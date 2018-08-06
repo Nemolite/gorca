@@ -245,18 +245,29 @@ button {
 	height: 50px;
 	border:1px solid #000;
 	float: left;
+
 }
 
 .summer {
 	width: 100%;
 	height: 25px;
-	background-color: #252;
+	/*background-color: #252;*/
+	background-image: url(../img/leto.jpg);
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .winter {
 	width: 100%;
 	height: 25px;
-	background-color: #7f7;
+	/*background-color: #7f7;*/
+	background-image: url(../img/zima.jpg);
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 
