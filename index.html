@@ -12,6 +12,9 @@
      <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
+    <!-- vk -->
+<script src="https://vk.com/js/api/openapi.js?158" type="text/javascript"></script>
+
 </head>
 <body>
 <div class="top-line">
@@ -365,10 +368,16 @@
 
 <div class="vk-instagram">
 	<div class="vk-content">
-		поле для API вконтакте
+
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, width: "520", height: "220"}, 20003922);
+</script>
+		
 	</div>
 	<div class="instagram-content">
-      поле для API инстагарам
+      <iframe src='/inwidget-1.3.0/index.php?width=800&inline=7&view=14&toolbar=false' scrolling='no' frameborder='no' style='border:none;width:600px;height:200px;overflow:hidden;'></iframe>
 	</div>
 </div>
 
@@ -380,18 +389,27 @@
 		<ul>
 			<li><a href="#">О нас</a></li>
 			<li><a href="#">Дисконтаная программа</a></li>
-			<li><a href="#">Вкансия</a></li>
+			<!-- <li><a href="#">Вкансия</a></li> -->
 			<li><a href="#">Реквизиты</a></li>
 			
 		</ul>
 
 	</div>
 	<div class="footer-middle">
-		Место для логтипа, или любой другой информации
+		<div class="logo-img size-top">
+		   <a href="#">	
+			<img src="img/logogorka_chern.png" alt="Логотип магазин Горка" width="270" height="90">
+			</a>
+		</div>
 
 	</div>
 	<div class="footer-right">
-		адрес и контактная информация
+		<p><span>Адрес:</span> 428015, Чувашская Республика,</p>
+		<p>г.Чебоксары</p>
+		<p>ул. Академика Королева 3, пом. 8</p>
+		<p><span>Почта:</span> evgenijchemodanov@yandex.ru</p>
+		<p><span>Тел:</span> +7 (917) 677-27-18</p>
+
 
 	</div>
 </div>

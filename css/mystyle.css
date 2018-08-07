@@ -450,21 +450,20 @@ nav ul {
 .vk-instagram {
 	width: 100%;
 	height: 200px;
-	border:1px solid red;
+	
 }
 
 .vk-content {
 	width: 49.8%;
 	height: 200px;
 	float: left;
-	border:1px solid green;
+	
 }
 
 .instagram-content {
     width: 49.8%;
 	height: 200px;
 	float: left;
-	border:1px solid green;
 }
 
 
@@ -479,8 +478,7 @@ nav ul {
 	width: 40%;
 	height: 120px;
 	float: left;
-	border:1px solid red;
-
+	
 }
 
 .footer-left ul {
@@ -492,29 +490,45 @@ nav ul {
 .footer-left ul li {
 	display: inline-block;
     position: relative;
-    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 40px;
 }
 
 .footer-left ul li a {
     font-size: 16px;
     text-decoration: none;
     color:#fff;
+    font-family: 'Open Sans', sans-serif;
+
 }
-
-
-
 
 .footer-middle {
 	width: 20%;
 	height: 120px;
 	float: left;
-	border:1px solid red;
+
+}
+
+.size-top {
+	margin-top: 15px;
 }
 
 .footer-right {
 	width: 39%;
 	height: 120px;
 	float: left;
-	border:1px solid red;
+	
+}
 
+.footer-right p {
+	color:#fff;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-right span {
+	color:#000;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
 }
