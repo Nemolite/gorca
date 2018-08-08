@@ -284,7 +284,9 @@ button {
 
 }
 
-
+.summer:active {
+	background-color: #fff;
+}
 
 
 
@@ -372,6 +374,16 @@ nav ul {
    transform: scaleY(1);
 }
 
+/*summer-winter*/
+
+.chk-winter {
+	display: none;
+}
+
+.chk-summer {
+
+}
+
 /*  end menu*/
 
 
@@ -420,7 +432,21 @@ nav ul {
 	width: 24.7%;
 	height: 250px;
 	float: left;
-	/*border:1px solid #000;*/
+	 -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
+}
+
+.content-colum:hover {
+	width: 24.7%;
+	height: 250px;
+	float: left;
+	background-color: rgba(254,54,54,0.3);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
+-moz-box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
+box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
 }
 
 .content-colum-img {
