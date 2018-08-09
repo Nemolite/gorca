@@ -381,7 +381,7 @@ nav ul {
 }
 
 .chk-summer {
-
+   display: block;
 }
 
 /*  end menu*/
@@ -525,6 +525,14 @@ box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
     font-size: 16px;
     text-decoration: none;
     color:#fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer-left ul li a:hover {
+    font-size: 16px;
+    text-decoration: none;
+    color:#000;
     font-family: 'Open Sans', sans-serif;
 
 }
