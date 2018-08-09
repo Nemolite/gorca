@@ -221,12 +221,31 @@ button {
     -webkit-background-size: 20% 20%;
     background-size: 50% 50%;
     background-repeat: no-repeat;
+     -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
 
 }
 
 .top-fon-cart h3 {
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
+    	color:#000;
+}
+
+.top-fon-cart h3:hover {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#FE3636;
+}
+
+.top-fon-cart:hover {
+	background-color: rgba(254,54,54,0.3);
+	/*-webkit-box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
+-moz-box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);
+box-shadow: 5px 5px 5px 0px rgba(40,40,40,1);*/
 }
 
 
